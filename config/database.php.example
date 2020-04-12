@@ -1,0 +1,12 @@
+<?php
+
+return [
+  'type' => 'mysql',
+  'name' => 'cab_db',
+  'host' => 'localhost',
+  'user' => 'cab',
+  'pass' => '12345678',
+  'charset' => 'utf8'
+];
+
+ ?>

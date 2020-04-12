@@ -1,0 +1,29 @@
+<?php
+
+define('DEBUG', false);
+define('DB_FACTORY', 'MyPDOFactory');
+define('DB_FACTORY_METHOD', 'create');
+define('SESSION_ID_KEY', 'id');
+define('CSRF_TOKEN_KEY', 'secure_token');
+define('PROJECT_NAME', 'example.com');
+define('TITLE', PROJECT_NAME.' User Profile');
+
+define('DAYS_TEST', 7);
+define('TEST_ACCOUNT_NAME_MASK', 'days test');
+define('TEST_ACCOUNT_NAME', DAYS_TEST . ' ' . TEST_ACCOUNT_NAME_MASK);
+define('TEST_ACCOUNTS_MAX_NUMBER', 1);
+
+define('STREAMERS', serialize(['http_de', 'hls_de', 'http_fr', 'hls_fr']));
+
+define('LOCALES', __DIR__ . '/../locales/');
+define('ALLOWED_LOCALES', serialize(['en' => 'en_GB', 'ru' => 'ru_RU', 'ua' => 'uk_UA']));
+define('DEFAULT_LOCALE', 'ru');
+
+define('REGISTRATION_TOKEN_TTL', 86400); //token lives 1 day = 60*60*24 seconds
+
+define('ROOT_ALIAS', 'root');
+define('CUSTOMER_ALIAS', 'customer');
+
+define('DEVICES_LIST_ALWAYS_ACTUAL', true);
+
+define('PROJECT_URL', 'http://example.com/');

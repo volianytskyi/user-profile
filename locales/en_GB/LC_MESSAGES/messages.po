@@ -1,0 +1,361 @@
+# Copyright (C) 2018
+# This file is distributed under the WTFPL license.
+# Sergey Volyanytsky <sergey.volyanytsky@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 18:39+0300\n"
+"PO-Revision-Date: 2018-09-28 20:05+0300\n"
+"Last-Translator: Sergey Volyanytsky <sergey.volyanytsky@gmail.com>\n"
+"Language-Team: Russian <sergey.volyanytsky@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: app/views\n"
+"X-Poedit-SearchPath-1: app/Locale.php\n"
+"X-Poedit-SearchPath-2: app/Route.php\n"
+"X-Poedit-SearchPath-3: app/Model.php\n"
+"X-Poedit-SearchPath-4: app/CSRF.php\n"
+"X-Poedit-SearchPath-5: app/DatabaseInterface.php\n"
+"X-Poedit-SearchPath-6: app/Controller.php\n"
+"X-Poedit-SearchPath-7: app/View.php\n"
+"X-Poedit-SearchPath-8: lib/TempUserInterface.php\n"
+"X-Poedit-SearchPath-9: lib/TempUser.php\n"
+"X-Poedit-SearchPath-10: lib/PHPMailerFactory.php\n"
+"X-Poedit-SearchPath-11: lib/AuthMailSender.php\n"
+"X-Poedit-SearchPath-12: lib/StalkerUserToDeviceModelAdapter.php\n"
+"X-Poedit-SearchPath-13: lib/TestAccountFactory.php\n"
+"X-Poedit-SearchPath-14: lib/StalkerApiFactory.php\n"
+"X-Poedit-SearchPath-15: lib/MyExceptionInterface.php\n"
+"X-Poedit-SearchPath-16: lib/UserInput.php\n"
+"X-Poedit-SearchPath-17: lib/MyPDOFactory.php\n"
+"X-Poedit-SearchPath-18: config/misctranslations.php\n"
+
+#: app/views/footer.php:3
+msgid "footer_title"
+msgstr "User Profile"
+
+#: app/views/topnav.php:12 app/views/view.error.php:8
+#: app/views/view.registration.info.php:5
+msgid "home"
+msgstr "Main"
+
+#: app/views/topnav.php:19
+msgid "my_devices"
+msgstr "My devices"
+
+#: app/views/topnav.php:22 app/views/topnav.php:33 app/views/topnav.php:45
+#: app/views/topnav.php:56
+msgid "list"
+msgstr "List"
+
+#: app/views/topnav.php:23
+msgid "test_account"
+msgstr "Test account"
+
+#: app/views/topnav.php:24
+msgid "register_existing"
+msgstr "Register existing"
+
+#: app/views/topnav.php:30
+msgid "affiliated_devices"
+msgstr "Affiliated"
+
+#: app/views/topnav.php:34 app/views/topnav.php:46 app/views/topnav.php:57
+msgid "add_new"
+msgstr "Add new"
+
+#: app/views/topnav.php:42
+msgid "middleware_setup"
+msgstr "Middleware setup"
+
+#: app/views/topnav.php:53
+msgid "device_types"
+msgstr "Device types"
+
+#: app/views/topnav.php:64
+msgid "Profile"
+msgstr "Profile"
+
+#: app/views/topnav.php:68
+msgid "logout"
+msgstr "Logout"
+
+#: app/views/view.dashboard.php:8
+msgid "transactions"
+msgstr "Transactions"
+
+#: app/views/view.device.edit.php:9
+msgid "device_info"
+msgstr "Device info"
+
+#: app/views/view.device.edit.php:12 app/views/view.device_type.edit.php:12
+#: app/views/view.device_type.new.php:12 app/views/view.devices.php:11
+#: app/views/view.portal.edit.php:12 app/views/view.portal.new.php:12
+#: app/views/view.portals.php:11
+msgid "name"
+msgstr "Name"
+
+#: app/views/view.device.edit.php:19
+msgid "created"
+msgstr "Created"
+
+#: app/views/view.device.edit.php:26 app/views/view.devices.php:12
+#: app/views/view.types.php:11
+msgid "device_type"
+msgstr "Device Type"
+
+#: app/views/view.device.edit.php:37 app/views/view.device_type.edit.php:19
+#: app/views/view.device_type.new.php:19
+msgid "hardware_id"
+msgstr "Hardware ID"
+
+#: app/views/view.device.edit.php:44 app/views/view.devices.php:14
+msgid "login"
+msgstr "Login"
+
+#: app/views/view.device.edit.php:51 app/views/view.devices.php:15
+#: app/views/view.login.php:24 app/views/view.login.php:25
+#: app/views/view.profile.php:19 app/views/view.sign_in.php:24
+#: app/views/view.sign_in.php:25
+msgid "password"
+msgstr "Password"
+
+#: app/views/view.device.edit.php:58 app/views/view.devices.php:17
+msgid "expire_date"
+msgstr "Expire Date"
+
+#: app/views/view.device.edit.php:65
+msgid "streaming_server"
+msgstr "Streaming Server"
+
+#: app/views/view.device.edit.php:79 app/views/view.device.new.php:28
+#: app/views/view.device.register.php:33 app/views/view.device_type.edit.php:44
+#: app/views/view.device_type.new.php:44 app/views/view.portal.edit.php:44
+#: app/views/view.portal.new.php:44 app/views/view.portals.php:42
+#: app/views/view.profile.php:36 app/views/view.types.php:38
+#: app/views/view.types.php:39
+msgid "cancel"
+msgstr "Cancel"
+
+#: app/views/view.device.edit.php:80 app/views/view.device.new.php:29
+#: app/views/view.device.register.php:34 app/views/view.device_type.edit.php:45
+#: app/views/view.device_type.new.php:45 app/views/view.portal.edit.php:45
+#: app/views/view.portal.new.php:45 app/views/view.profile.php:37
+msgid "submit"
+msgstr "Submit"
+
+#: app/views/view.device.new.php:9
+msgid "test_account_welcome_message"
+msgstr ""
+"Please select the device type you would like to get the test account for:"
+
+#: app/views/view.device.register.php:9
+msgid "device_register_welcome_message"
+msgstr ""
+"Please select the device type you would like to upload from the portal:"
+
+#: app/views/view.device_type.edit.php:9 app/views/view.device_type.new.php:9
+msgid "device_type_info"
+msgstr "Device type info"
+
+#: app/views/view.device_type.edit.php:30 app/views/view.device_type.new.php:30
+#: app/views/view.types.php:12
+msgid "portal"
+msgstr "Portal"
+
+#: app/views/view.devices.php:13
+msgid "mac"
+msgstr "MAC"
+
+#: app/views/view.devices.php:16
+msgid "status"
+msgstr "Status"
+
+#: app/views/view.login.php:20 app/views/view.registration.php:21
+#: app/views/view.sign_in.php:20
+msgid "client_profile"
+msgstr "User Profile"
+
+#: app/views/view.login.php:22 app/views/view.registration.php:25
+#: app/views/view.restore.php:23 app/views/view.sign_in.php:22
+msgid "email"
+msgstr "E-Mail"
+
+#: app/views/view.login.php:23 app/views/view.registration.php:26
+#: app/views/view.restore.php:24 app/views/view.sign_in.php:23
+msgid "email_placeholder"
+msgstr "Please enter the e-mail address"
+
+#: app/views/view.login.php:27 app/views/view.sign_in.php:27
+msgid "sign_in"
+msgstr "Sign In"
+
+#: app/views/view.login.php:32
+msgid "Forgot password?"
+msgstr ""
+
+#: app/views/view.login.php:34
+msgid "registration"
+msgstr "Registration"
+
+#: app/views/view.portal.edit.php:9 app/views/view.portal.new.php:9
+msgid "portal_info"
+msgstr "Portal Info"
+
+#: app/views/view.portals.php:15 app/views/view.portals.php:26
+#: app/views/view.portals.php:43 app/views/view.types.php:13
+#: app/views/view.types.php:22
+msgid "delete"
+msgstr "Delete"
+
+#: app/views/view.portals.php:38
+msgid "delete_portal_welcome_message"
+msgstr ""
+"<p>You are about to delete the portal, it will be removed from panel "
+"database.</p><p>You will be able to do nothing with customers that are "
+"signed to this portal.</p><p>This procedure is irreversible. Do you want to "
+"proceed?</p>"
+
+#: app/views/view.profile.php:9
+msgid "profile_info"
+msgstr "Profile Info"
+
+#: app/views/view.profile.php:12 app/views/view.registration.php:23
+msgid "username"
+msgstr "Username"
+
+#: app/views/view.profile.php:26
+msgid "repeat_password"
+msgstr "Repeat Password"
+
+#: app/views/view.registration.php:24
+msgid "username_placeholder"
+msgstr "Please, enter the username"
+
+#: app/views/view.registration.php:28
+msgid "register"
+msgstr "Register"
+
+#: app/views/view.restore.php:21
+msgid "Restore password"
+msgstr ""
+
+#: app/views/view.restore.php:26
+msgid "Send"
+msgstr ""
+
+#: app/views/view.types.php:34
+msgid "device_type_delete_welcome_message"
+msgstr ""
+"<p>You are about to delete the device type, it will be removed from panel "
+"database.</p><p>You will be able to do nothing with devices that are signed "
+"to this device type.</p><p>This procedure is irreversible. Do you want to "
+"proceed?</p>"
+
+# allowed locales
+#: config/misctranslations.php:4
+msgid "ru"
+msgstr "Русский"
+
+#: config/misctranslations.php:5
+msgid "en"
+msgstr "English"
+
+#: config/misctranslations.php:6
+msgid "ua"
+msgstr "Українська"
+
+# streaming servers
+#: config/misctranslations.php:9
+msgid "http_de"
+msgstr "Germany MPEGTS"
+
+#: config/misctranslations.php:10
+msgid "hls_de"
+msgstr "Germany HLS"
+
+#: config/misctranslations.php:11
+msgid "http_fr"
+msgstr "France MPEGTS"
+
+#: config/misctranslations.php:12
+msgid "hls_fr"
+msgstr "France HLS"
+
+# date format
+#: config/misctranslations.php:15
+msgid "unlimited"
+msgstr "Unlimited"
+
+#: lib/AuthMailSender.php:16
+#, php-format
+msgid "%s Registration Confirmation"
+msgstr ""
+
+#: lib/AuthMailSender.php:23
+#, php-format
+msgid ""
+"Dear %s!\n"
+"\n"
+"Please, follow the link to complete the registration or just do nothing if "
+"you did not have to receive this message: \n"
+"\n"
+"%s\n"
+"\n"
+"Your login credits: \n"
+"\tlogin: %s\n"
+"\tpassword: %s\n"
+"\n"
+"Note, the link is valid until %s\n"
+"\n"
+"Please, do not reply on this message."
+msgstr ""
+
+#~ msgid "auth_letter_subject"
+#~ msgstr "Authorization Confirmation"
+
+#~ msgid ""
+#~ "Dear %s!\n"
+#~ "\n"
+#~ "Please, follow the link to complete the registration or just do nothing "
+#~ "if you did not have to receive this message: \n"
+#~ "\n"
+#~ "http://example.com/login/%s\n"
+#~ "\n"
+#~ "Your login credits: \n"
+#~ "\tlogin: %s\n"
+#~ "\tpassword: %s\n"
+#~ "\n"
+#~ "Note, the link is valid until %s\n"
+#~ "\n"
+#~ "Please, do not reply on this message."
+#~ msgstr ""
+#~ "Dear %s!\n"
+#~ "\n"
+#~ "Please, follow the link to complete the registration or just do nothing "
+#~ "if you did not have to receive this message: \n"
+#~ "\n"
+#~ "http://example.com/login/%s\n"
+#~ "\n"
+#~ "Your login credits: \n"
+#~ "\tlogin: %s\n"
+#~ "\tpassword: %s\n"
+#~ "\n"
+#~ "Note, the link is valid until %s\n"
+#~ "\n"
+#~ "Please, do not reply on this message."
+
+#~ msgid "uk"
+#~ msgstr "Ukrainian"
+
+#~ msgid "id"
+#~ msgstr "Id"
+
+#~ msgid "date_format"
+#~ msgstr "{1}, {0} {2}"

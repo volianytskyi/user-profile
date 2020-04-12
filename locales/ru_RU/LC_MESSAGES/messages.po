@@ -1,0 +1,552 @@
+# User Profile.
+# Copyright (C) 2018
+# This file is distributed under the WTFPL license.
+# Sergey Volyanytsky <sergey.volyanytsky@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-28 18:51+0300\n"
+"PO-Revision-Date: 2018-09-28 20:05+0300\n"
+"Last-Translator: Sergey Volyanytsky <sergey.volyanytsky@gmail.com>\n"
+"Language-Team: Russian <sergey.volyanytsky@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: app/views\n"
+"X-Poedit-SearchPath-1: lib/AuthMailSender.php\n"
+"X-Poedit-SearchPath-2: lib/TempUserInterface.php\n"
+"X-Poedit-SearchPath-3: lib/TempUser.php\n"
+"X-Poedit-SearchPath-4: lib/PHPMailerFactory.php\n"
+"X-Poedit-SearchPath-5: lib/StalkerUserToDeviceModelAdapter.php\n"
+"X-Poedit-SearchPath-6: lib/TestAccountFactory.php\n"
+"X-Poedit-SearchPath-7: lib/StalkerApiFactory.php\n"
+"X-Poedit-SearchPath-8: lib/MyExceptionInterface.php\n"
+"X-Poedit-SearchPath-9: lib/UserInput.php\n"
+"X-Poedit-SearchPath-10: lib/MyPDOFactory.php\n"
+"X-Poedit-SearchPath-11: config/misctranslations.php\n"
+"X-Poedit-SearchPath-12: lib/Exceptions\n"
+"X-Poedit-SearchPath-13: app/controllers/ErrorController.php\n"
+"X-Poedit-SearchPath-14: app/controllers/TypesController.php\n"
+"X-Poedit-SearchPath-15: app/controllers/RegistrationController.php\n"
+"X-Poedit-SearchPath-16: app/controllers/ProfileController.php\n"
+"X-Poedit-SearchPath-17: app/controllers/PortalsController.php\n"
+"X-Poedit-SearchPath-18: app/controllers/LoginController.php\n"
+"X-Poedit-SearchPath-19: app/controllers/DevicesController.php\n"
+"X-Poedit-SearchPath-20: app/controllers/DashboardController.php\n"
+"X-Poedit-SearchPath-21: lib/PasswordRestorator.php\n"
+
+#: app/controllers/DevicesController.php:90
+#, php-format
+msgid "Device type %s not found"
+msgstr "Тип устройства %s не найден"
+
+#: app/controllers/LoginController.php:68
+#: app/controllers/RegistrationController.php:48
+msgid ""
+"Unfortunately, confirmation e-mail was not sent. Please, try again later"
+msgstr ""
+"К сожалению, письмо не было отправлено. Пожалуйста, повторите попытку позже."
+
+#: app/controllers/LoginController.php:72
+#, php-format
+msgid "New password has been sent to %s"
+msgstr "Новый пароль был отправлен на %s"
+
+#: app/controllers/RegistrationController.php:52
+#, php-format
+msgid ""
+"Confirmation letter has been sent to %s <br/>Please follow the instructions "
+"to complete the registration"
+msgstr ""
+"Письмо было отправлено на %s<br/>Пожалуйста, следуйте инструкциям, чтобы "
+"завершить регистрацию"
+
+#: app/views/footer.php:3
+#, php-format
+msgid "%s User Profile"
+msgstr "%s Кабинет пользователя"
+
+#: app/views/topnav.php:12 app/views/view.error.php:8
+#: app/views/view.registration.info.php:5
+msgid "home"
+msgstr "Главная"
+
+#: app/views/topnav.php:19
+msgid "my_devices"
+msgstr "Мои устройства"
+
+#: app/views/topnav.php:22 app/views/topnav.php:33 app/views/topnav.php:45
+#: app/views/topnav.php:56
+msgid "list"
+msgstr "Список"
+
+#: app/views/topnav.php:23
+msgid "test_account"
+msgstr "Тестовый аккаунт"
+
+#: app/views/topnav.php:24
+msgid "register_existing"
+msgstr "Регистрация устройства"
+
+#: app/views/topnav.php:30
+msgid "affiliated_devices"
+msgstr "Мои абоненты"
+
+#: app/views/topnav.php:34 app/views/topnav.php:46 app/views/topnav.php:57
+msgid "add_new"
+msgstr "Добавить"
+
+#: app/views/topnav.php:42
+msgid "middleware_setup"
+msgstr "Настройки порталов"
+
+#: app/views/topnav.php:53
+msgid "device_types"
+msgstr "Типы устройств"
+
+#: app/views/topnav.php:64
+msgid "Profile"
+msgstr "Аккаунт"
+
+#: app/views/topnav.php:68
+msgid "logout"
+msgstr "Выйти"
+
+#: app/views/view.dashboard.php:8
+msgid "transactions"
+msgstr "История транзакций"
+
+#: app/views/view.device.edit.php:9
+msgid "device_info"
+msgstr "Информация об устройстве"
+
+#: app/views/view.device.edit.php:12 app/views/view.device_type.edit.php:12
+#: app/views/view.device_type.new.php:12 app/views/view.devices.php:11
+#: app/views/view.portal.edit.php:12 app/views/view.portal.new.php:12
+#: app/views/view.portals.php:11
+msgid "name"
+msgstr "Название"
+
+#: app/views/view.device.edit.php:19
+msgid "created"
+msgstr "Дата создания"
+
+#: app/views/view.device.edit.php:26 app/views/view.devices.php:12
+#: app/views/view.types.php:11
+msgid "device_type"
+msgstr "Тип устройства"
+
+#: app/views/view.device.edit.php:37 app/views/view.device_type.edit.php:19
+#: app/views/view.device_type.new.php:19
+msgid "hardware_id"
+msgstr "Аппаратный идентификатор"
+
+#: app/views/view.device.edit.php:44 app/views/view.devices.php:14
+msgid "login"
+msgstr "Логин"
+
+#: app/views/view.device.edit.php:51 app/views/view.devices.php:15
+#: app/views/view.login.php:24 app/views/view.login.php:25
+#: app/views/view.profile.php:19 app/views/view.sign_in.php:24
+#: app/views/view.sign_in.php:25
+msgid "password"
+msgstr "Пароль"
+
+#: app/views/view.device.edit.php:58 app/views/view.devices.php:17
+msgid "expire_date"
+msgstr "Срок окончания подписки"
+
+#: app/views/view.device.edit.php:65
+msgid "streaming_server"
+msgstr "Сервер вещания"
+
+#: app/views/view.device.edit.php:79 app/views/view.device.new.php:28
+#: app/views/view.device.register.php:33 app/views/view.device_type.edit.php:44
+#: app/views/view.device_type.new.php:44 app/views/view.portal.edit.php:44
+#: app/views/view.portal.new.php:44 app/views/view.portals.php:42
+#: app/views/view.profile.php:36 app/views/view.types.php:38
+#: app/views/view.types.php:39
+msgid "cancel"
+msgstr "Отменить"
+
+#: app/views/view.device.edit.php:80 app/views/view.device.new.php:29
+#: app/views/view.device.register.php:34 app/views/view.device_type.edit.php:45
+#: app/views/view.device_type.new.php:45 app/views/view.portal.edit.php:45
+#: app/views/view.portal.new.php:45 app/views/view.profile.php:37
+msgid "submit"
+msgstr "Подтвердить"
+
+#: app/views/view.device.new.php:9
+msgid "test_account_welcome_message"
+msgstr ""
+"Пожалуйста, укажите тип устройства, для которого необходимо получить "
+"тестовый аккаунт:"
+
+#: app/views/view.device.register.php:9
+msgid "device_register_welcome_message"
+msgstr ""
+"Пожалуйста, укажите тип устройства, данные о котором следует загрузить из "
+"портала:"
+
+#: app/views/view.device_type.edit.php:9 app/views/view.device_type.new.php:9
+msgid "device_type_info"
+msgstr "Информация о типе устройства"
+
+#: app/views/view.device_type.edit.php:30 app/views/view.device_type.new.php:30
+#: app/views/view.types.php:12
+msgid "portal"
+msgstr "Портал"
+
+#: app/views/view.devices.php:13
+msgid "mac"
+msgstr "MAC"
+
+#: app/views/view.devices.php:16
+msgid "status"
+msgstr "Статус"
+
+#: app/views/view.login.php:20 app/views/view.registration.php:21
+#: app/views/view.sign_in.php:20
+msgid "client_profile"
+msgstr "Кабинет пользователя"
+
+#: app/views/view.login.php:22 app/views/view.registration.php:25
+#: app/views/view.restore.php:23 app/views/view.sign_in.php:22
+msgid "email"
+msgstr "E-Mail"
+
+#: app/views/view.login.php:23 app/views/view.registration.php:26
+#: app/views/view.restore.php:24 app/views/view.sign_in.php:23
+msgid "email_placeholder"
+msgstr "Введите e-mail"
+
+#: app/views/view.login.php:27 app/views/view.sign_in.php:27
+msgid "sign_in"
+msgstr "Войти"
+
+#: app/views/view.login.php:32
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+#: app/views/view.login.php:34
+msgid "registration"
+msgstr "Регистрация"
+
+#: app/views/view.portal.edit.php:9 app/views/view.portal.new.php:9
+msgid "portal_info"
+msgstr "Информация о портале"
+
+#: app/views/view.portals.php:15 app/views/view.portals.php:26
+#: app/views/view.portals.php:43 app/views/view.types.php:13
+#: app/views/view.types.php:22
+msgid "delete"
+msgstr "Удалить"
+
+#: app/views/view.portals.php:38
+msgid "delete_portal_welcome_message"
+msgstr ""
+"<p>Вы собираетесь удалить портал из базы кабинета.</p><p>Пользователи, "
+"подлюченные к данному порталу, станут недоступными для редактирования в "
+"кабинете.</p><p>Процедура необратима. Вы действительно хотите удалить портал?"
+"</p>"
+
+#: app/views/view.profile.php:9
+msgid "profile_info"
+msgstr "Информация об аккаунте"
+
+#: app/views/view.profile.php:12 app/views/view.registration.php:23
+msgid "username"
+msgstr "Имя пользователя"
+
+#: app/views/view.profile.php:26
+msgid "repeat_password"
+msgstr "Подтверждение пароля"
+
+#: app/views/view.registration.php:24
+msgid "username_placeholder"
+msgstr "Пожалуйста, введите имя пользователя"
+
+#: app/views/view.registration.php:28
+msgid "register"
+msgstr "Зарегестрироваться"
+
+#: app/views/view.restore.php:21
+msgid "Restore password"
+msgstr "Восстановить пароль"
+
+#: app/views/view.restore.php:26
+msgid "Send"
+msgstr "Отправить"
+
+#: app/views/view.types.php:34
+msgid "device_type_delete_welcome_message"
+msgstr ""
+"<p>Вы собираетесь удалить тип устройства из базы кабинета.</p><p>Устройства "
+"данного типа станут недоступными для редактирования в кабинете.</"
+"p><p>Процедура необратима. Вы действительно хотите удалить тип устройства?</"
+"p>"
+
+# allowed locales
+#: config/misctranslations.php:4
+msgid "ru"
+msgstr "Русский"
+
+#: config/misctranslations.php:5
+msgid "en"
+msgstr "English"
+
+#: config/misctranslations.php:6
+msgid "ua"
+msgstr "Українська"
+
+# streaming servers
+#: config/misctranslations.php:9
+msgid "http_de"
+msgstr "Германия MPEGTS"
+
+#: config/misctranslations.php:10
+msgid "hls_de"
+msgstr "Германия HLS"
+
+#: config/misctranslations.php:11
+msgid "http_fr"
+msgstr "Франция MPEGTS"
+
+#: config/misctranslations.php:12
+msgid "hls_fr"
+msgstr "Франция HLS"
+
+# date format
+#: config/misctranslations.php:15
+msgid "unlimited"
+msgstr "Безлимитный"
+
+#: lib/AuthMailSender.php:16
+#, php-format
+msgid "%s Registration Confirmation"
+msgstr "%S Подтверждение регистрации"
+
+#: lib/AuthMailSender.php:23
+#, php-format
+msgid ""
+"Dear %s!\n"
+"\n"
+"Please, follow the link to complete the registration or just do nothing if "
+"you did not have to receive this message: \n"
+"\n"
+"%s\n"
+"\n"
+"Your login credits: \n"
+"\tlogin: %s\n"
+"\tpassword: %s\n"
+"\n"
+"Note, the link is valid until %s\n"
+"\n"
+"Please, do not reply on this message."
+msgstr ""
+"Уважаемый %s!\n"
+"\n"
+"Пожалуйста, пройдите по ссылке для завершения регистрации:\n"
+"\n"
+"%s\n"
+"\n"
+"Ваши данные для входа в систему: \n"
+"\tлогин: %s\n"
+"\tпароль: %s\n"
+"\n"
+"Пожалуйсте, обратите внимание, что ссылка действительна до %s\n"
+"\n"
+"Пожалуйста, не отвечайте на это письмо."
+
+#: lib/Exceptions/AuthException.php:13
+msgid "Email not exist"
+msgstr "Email отсутствует"
+
+#: lib/Exceptions/AuthException.php:15
+msgid "Password mismatch"
+msgstr "Пароль на совпадает"
+
+#: lib/Exceptions/AuthException.php:17
+msgid "Authorization error"
+msgstr "Ошибка авторизации"
+
+#: lib/Exceptions/DeviceRegistrationException.php:16
+msgid "Device registration failed"
+msgstr "Регистрация устройства прошла неуспешно"
+
+#: lib/Exceptions/ModelException.php:16
+msgid "Model object processing error"
+msgstr "Ошибка обработки данных модели"
+
+#: lib/Exceptions/MyPDOException.php:9
+msgid "Database error. Please, contact website administrator"
+msgstr "Ошибка базы данных. Пожалуйста, обратитесь к администратору ресурса"
+
+#: lib/Exceptions/NotFoundException.php:15
+msgid "There is no required data in database"
+msgstr "Отсутствуют необходимые данные в базе"
+
+#: lib/Exceptions/NotFoundException.php:18
+msgid "User does not exist in the database"
+msgstr "Пользователь не найден"
+
+#: lib/Exceptions/NotFoundException.php:21
+msgid "Required data not found"
+msgstr "Необходимые данные не найдены"
+
+#: lib/Exceptions/PermissionException.php:14
+msgid "No access to this user device"
+msgstr "Нет доступа к устройству"
+
+#: lib/Exceptions/PermissionException.php:17
+msgid "No Access"
+msgstr "Нет доступа"
+
+#: lib/Exceptions/PortalException.php:14
+msgid "Incorrect portal property value"
+msgstr "Некорректное значение свойства портала"
+
+#: lib/Exceptions/PortalException.php:17
+msgid "Middleware setup error"
+msgstr "Ошибка настройки портала"
+
+#: lib/Exceptions/RegistrationException.php:16
+#, php-format
+msgid "User with such e-mail %s is already regisered. Please, sign in."
+msgstr ""
+"Пользователь с электронной почтой %s уже существует. Пожалуйста, войдите в "
+"систему"
+
+#: lib/Exceptions/RegistrationException.php:19
+msgid "Temporary link was expired. Please, register again."
+msgstr "Время действия ссылки истекло. Пожалуйста, зарегестрируйтесь заново"
+
+#: lib/Exceptions/RegistrationException.php:22
+msgid "Inner server error."
+msgstr "Внутренняя ошибка сервера"
+
+#: lib/Exceptions/RegistrationException.php:25
+msgid "Registration processing error"
+msgstr "Ошибка регистрации"
+
+#: lib/Exceptions/TestAccountException.php:14
+msgid "You can't add more test accounts"
+msgstr "Вы достигли лимита количества тестовых аккаунтов"
+
+#: lib/Exceptions/TestAccountException.php:16
+msgid "Unable to create test account"
+msgstr "Ошибка создания тестового аккаунта"
+
+#: lib/Exceptions/UserInputException.php:12
+msgid "Device type is required"
+msgstr "Необходимо указать тип устройства"
+
+#: lib/Exceptions/UserInputException.php:14
+msgid "All fields are required"
+msgstr "Необходимо заполнить все поля"
+
+#: lib/Exceptions/UserInputException.php:16
+msgid "Necessary to input password, streaming server and device type values"
+msgstr "Необходимо ввести пароль, сервер вещания и тип устройства"
+
+#: lib/Exceptions/UserInputException.php:18
+msgid "Please, fill both login and password"
+msgstr "Пожалуйста, введите логин и пароль"
+
+#: lib/Exceptions/UserInputException.php:20
+msgid "Empty value is not allowed"
+msgstr "Пустое значение не разрешено"
+
+#: lib/Exceptions/UserInputException.php:22
+msgid "Username must be entered"
+msgstr "Должно быть введено имя пользователя"
+
+#: lib/Exceptions/UserInputException.php:24
+msgid "The same password must be entered twice"
+msgstr "Пароль должен быть введен дважды"
+
+#: lib/Exceptions/UserInputException.php:26
+msgid "Both name and email must be entered"
+msgstr "Пожалуйста, введите email и пароль"
+
+#: lib/Exceptions/UserInputException.php:28
+msgid "Incorrect user input data"
+msgstr "Введены некорректные данные"
+
+#: lib/Exceptions/ViewException.php:13
+msgid "Unable to render the page. Please, contact website administrator."
+msgstr "Ошибка вывода данных. Пожалуйста, обратитесь к администратору ресурса."
+
+#: lib/PasswordRestorator.php:47
+#, php-format
+msgid ""
+"Dear %s!\n"
+"\n"
+"Please, enter the next credits to authorize in %s \n"
+"\tlogin: %s\n"
+"\tpassword: %s\n"
+"\n"
+"Please, do not reply on this message."
+msgstr ""
+"Уважаемый %s!\n"
+"\n"
+"Пожалуйста, введите следующие данные для авторизации в %s \n"
+"\tлогин: %s\n"
+"\tпароль: %s\n"
+"\n"
+"Пожалуйста, не отвечайте на это письмо."
+
+#: lib/PasswordRestorator.php:58
+#, php-format
+msgid "%s Password Restoration"
+msgstr "%s Восстановление пароля"
+
+#~ msgid "footer_title"
+#~ msgstr "Кабинет пользователя"
+
+#~ msgid "auth_letter_subject"
+#~ msgstr "Подтверждение регистрации"
+
+#~ msgid ""
+#~ "Dear %s!\n"
+#~ "\n"
+#~ "Please, follow the link to complete the registration or just do nothing "
+#~ "if you did not have to receive this message: \n"
+#~ "\n"
+#~ "http://example.com/login/%s\n"
+#~ "\n"
+#~ "Your login credits: \n"
+#~ "\tlogin: %s\n"
+#~ "\tpassword: %s\n"
+#~ "\n"
+#~ "Note, the link is valid until %s\n"
+#~ "\n"
+#~ "Please, do not reply on this message."
+#~ msgstr ""
+#~ "Уважаемый %s!\n"
+#~ "\n"
+#~ "Для завершения регистрации перейдите по ссылке: \n"
+#~ "\n"
+#~ "http://example.com/login/%s\n"
+#~ "\n"
+#~ "Ваши данные для входа: \n"
+#~ "\tлогин: %s\n"
+#~ "\tпароль: %s\n"
+#~ "\n"
+#~ "Обратите внимание, что ссылка действительна до %s\n"
+#~ "\n"
+#~ "Пожалуйста, не отвечайте на это письмо."
+
+#~ msgid "uk"
+#~ msgstr "Украинский"
+
+#~ msgid "id"
+#~ msgstr "Id"
+
+#~ msgid "date_format"
+#~ msgstr "{0} {1} {2}"
